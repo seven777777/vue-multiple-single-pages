@@ -7,7 +7,7 @@ import router from './router'
 const isDev = (process.env.NODE_ENV === "development")
 Vue.config.productionTip = isDev
 
-import '@/assets/style/moduleA.scss'
+import '@/assets/style/moduleB.scss'
 
 new Vue({
   store,
