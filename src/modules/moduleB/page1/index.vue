@@ -1,12 +1,10 @@
 <template>
 <div>
-    <moduleANav />
-    <p>moduleA-page1</p>
+    <p>moduleB-page1</p>
 </div>
 </template>
 
 <script>
-import moduleANav from '@/components/moduleANav'
 export default {
     components:{
         moduleANav

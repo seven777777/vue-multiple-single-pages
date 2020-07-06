@@ -11,7 +11,7 @@ const routes = [
     },
     {
         path: "/page1",
-        name:'模块A-page1',
+        name:'模块B-page1',
         component: () => import(/* webpackChunkName: "moduleBPage" */ "./page1")
     }
 ];
