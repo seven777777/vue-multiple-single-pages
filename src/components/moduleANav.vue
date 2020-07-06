@@ -3,6 +3,9 @@
 		<li v-for="(item,index) of menu" :key="index">
 			<router-link :to="item.path">{{item.name}}</router-link>
 		</li>
+		<li>
+			<router-link to="/moduleB/index">moduleB</router-link>
+		</li>
 	</ul>
 </template>
 
